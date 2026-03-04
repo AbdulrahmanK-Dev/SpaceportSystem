@@ -1,0 +1,60 @@
+/* Root pane background with your purple blackhole image */
+#root-pane {
+    -fx-background-image: url("/images/purple_blackhole.jpg"); /* replace with your image */
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Login card - translucent dark with blur-like drop shadow */
+#login-card {
+    -fx-background-color: rgba(20, 10, 40, 0.85);
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(70, 30, 120, 0.7), 15, 0, 0, 0);
+}
+
+/* Title style */
+#login-title {
+    -fx-text-fill: #bb86fc;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Text field styling */
+.text-field {
+    -fx-background-radius: 6;
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-padding: 12 18 12 18;
+    -fx-font-size: 14px;
+    -fx-border-radius: 6;
+    -fx-border-color: #7f39fb;
+}
+
+/* Login button */
+#login-btn {
+    -fx-background-color: #7f39fb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 6;
+    -fx-padding: 12 28 12 28;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #6a28e5, 8, 0, 0, 0);
+}
+
+#login-btn:hover {
+    -fx-background-color: #9a63ff;
+}
+
+/* Role links at top right */
+#role-link {
+    -fx-text-fill: #bb86fc;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+#role-link:hover {
+    -fx-underline: true;
+    -fx-text-fill: #dfb9ff;
+}

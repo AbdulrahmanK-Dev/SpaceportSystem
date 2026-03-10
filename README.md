@@ -11,7 +11,8 @@ The system handles rocket operations, trip scheduling, passenger bookings, maint
 - UML Design
 - Database Integration
 
---
+---
+
  ## Features
 
 - 🚀 Trip scheduling and ticket booking

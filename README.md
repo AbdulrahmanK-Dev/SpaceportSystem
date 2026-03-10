@@ -4,7 +4,7 @@ The system handles rocket operations, trip scheduling, passenger bookings, maint
 ---
 
 
-:box: ## Technologies
+## 📦 Technologies
 
 - Java
 - Object-Oriented Programming
